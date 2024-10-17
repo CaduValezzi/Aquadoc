@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="br.com.fiap.main.GuiPrincipal">
+  <grid id="27dc6" binding="panelPrincipal" layout-manager="GridLayoutManager" row-count="6" column-count="4" same-size-horizontally="false" same-size-vertically="false" hgap="0" vgap="0">
+    <margin top="20" left="70" bottom="20" right="70"/>
+    <constraints>
+      <xy x="37" y="29" width="747" height="328"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <component id="9ff15" class="javax.swing.JLabel" binding="corDaÁguaLabel">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Turbidez da água*"/>
+        </properties>
+      </component>
+      <component id="cd9df" class="javax.swing.JLabel" binding="phDaÁguaLabel">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Ph da água*"/>
+        </properties>
+      </component>
+      <component id="86aea" class="javax.swing.JTextField" binding="textCor">
+        <constraints>
+          <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <editable value="true"/>
+          <text value="transparente ou turva"/>
+        </properties>
+      </component>
+      <component id="76c2c" class="javax.swing.JTextField" binding="textPh">
+        <constraints>
+          <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="1 á 14"/>
+        </properties>
+      </component>
+      <component id="516ac" class="javax.swing.JLabel" binding="odorLabel">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Odor*"/>
+        </properties>
+      </component>
+      <component id="6f5f9" class="javax.swing.JTextField" binding="textOdor">
+        <constraints>
+          <grid row="3" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="inodoro ou odorífero"/>
+        </properties>
+      </component>
+      <component id="91f5a" class="javax.swing.JTextArea" binding="resultadoTextArea" default-binding="true">
+        <constraints>
+          <grid row="1" column="3" row-span="3" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="100" height="50"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-1974553"/>
+          <editable value="false"/>
+          <enabled value="true"/>
+          <font name="Arial" size="16" style="1"/>
+          <lineWrap value="true"/>
+          <text value="Resultado"/>
+        </properties>
+      </component>
+      <component id="69ce" class="javax.swing.JLabel" binding="labelAnalise">
+        <constraints>
+          <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <opaque value="false"/>
+          <text value="Analíse de amostra de água"/>
+        </properties>
+      </component>
+      <component id="e6a02" class="javax.swing.JLabel" binding="saborLabel">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Tem Sabor?"/>
+        </properties>
+      </component>
+      <component id="c053e" class="javax.swing.JButton" binding="buttonEnviar">
+        <constraints>
+          <grid row="5" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Enviar"/>
+        </properties>
+      </component>
+      <component id="53970" class="javax.swing.JTextField" binding="textSabor">
+        <constraints>
+          <grid row="4" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="sim ou não"/>
+        </properties>
+      </component>
+      <component id="5f5ce" class="javax.swing.JLabel" binding="obrigLabel">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="obrigatorios: *"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
