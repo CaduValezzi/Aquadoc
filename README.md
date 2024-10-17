@@ -5,7 +5,7 @@ um peixe robô. Ao acessar a aplicação, o usuário se depara com um botão
 “Entrar” que o redireciona para a janela principal. Nessa janela, o usuário deve
 inserir dados sobre a turbidez, pH, odor e sabor da água, sendo que a informação
 sobre sabor é opcional.
-<br>
+
 Após o envio desses dados, a aplicação analisa as características da água e
 fornece um feedback sobre sua qualidade. Se as características indicadas forem
 boas para uso, a aplicação confirma a qualidade da água. Caso contrário, ela
